@@ -8,7 +8,7 @@ public class QuestionSpring22 {
         String odd="odd.txt";
         String even="even.txt";
         try{
-            BufferedWriter bw=new BufferedWriter(new FileWriter(id,true));
+            BufferedWriter bw=new BufferedWriter(new FileWriter(id));
             bw.write("0112310574\n");
             bw.write("0112310575\n");
             bw.write("0112310576\n");
